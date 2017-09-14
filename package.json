@@ -1,0 +1,32 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "FCC's Timestamp Microservice Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --recursive || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoemakerdr/timestamp-microservice.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "timestamp",
+    "microservice"
+  ],
+  "author": "Derek Shoemaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoemakerdr/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/shoemakerdr/timestamp-microservice#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
