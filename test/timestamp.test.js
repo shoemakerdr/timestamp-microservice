@@ -1,5 +1,5 @@
 const assert = require('chai').assert
-const {timestamp, naturalDate} = require('../src/timestamp')
+const { timestamp, naturalDate } = require('../src/timestamp')
 
 describe('Timestamp', () => {
     it('should be a function', () => {
