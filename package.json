@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "FCC's Timestamp Microservice Project",
   "main": "src/index.js",
+  "engines": {
+      "node": "8.1.2"
+  },
   "scripts": {
     "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "mocha --recursive || true"
   },
   "repository": {
