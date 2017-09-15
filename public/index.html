@@ -2,9 +2,67 @@
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <title>Timestamp Microservice</title>
+        <style>
+            body {
+                margin-left: 5em;
+                margin-right: 5em;
+                color: #333;
+            }
+
+            code {
+                margin-bottom: 1em;
+                padding: .5em;
+                background-color: #4F4F4F;
+                color: #3AFCCB;
+                display: block;
+            }
+
+            footer {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                padding-bottom: 2em;
+                width: 100%;
+            }
+
+            .footer-text {
+                text-align: center;
+            }
+
+            a {
+                text-decoration: none;
+                transition: color .5s, border .5s;
+            }
+
+            a:visited {
+                color: #42ADF4;
+            }
+
+            a:hover {
+                color: #3AFCCB;
+                border-bottom: 2px solid #3AFCCB;
+            }
+        </style>
     </head>
     <body>
         <h1>Timestamp Microservice Project</h1>
+        <p>
+            This project is from FreeCodeCamp's Back End Certification   
+            curriculum. It takes a natural language date or unix 
+            timestamp and returns a JSON object with both forms 
+            of timestamp info.
+        </p>
+        <div>
+            <h3>Example Usage</h3>
+            <code>https://timestamp-ms.herokuapp.com/November%2026,%201987</code>
+            <code>https://timestamp-ms.herokuapp.com/564904800</code>
+            <h3>Example Output</h3>
+            <code>{ "unix": 564904800, "natural": "November 26, 1987"}</code>
+        </div>
+        <footer>
+            <p class='footer-text'>Created by <a href='https://github.com/shoemakerdr' target='_blank'>Derek Shoemaker</a></p>
+        </footer>
     </body>
 </html>
