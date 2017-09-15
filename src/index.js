@@ -16,6 +16,4 @@ app.get('/:timestamp', (req, res) => {
     res.json(timestamp(ts))
 })
 
-app.listen(8000, () => {
-    console.log('You\'re listening on port 8000.\n\n\tGo to http://localhost:8000')
-})
+app.listen(process.env.PORT || 8000)
